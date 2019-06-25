@@ -1,14 +1,16 @@
 import React, {Component} from 'react'
 import './comMain.scss'
 
-class ComAside extends Component {
+class ComMain extends Component {
       render () {
         return (
             <div className="comMain">
-            fdsafdsa
+              <span>12345678</span>
+              {console.log(this.props.children)}
+              {this.props.children}
             </div>
         )
       }
     }
     
-    export default ComAside
+    export default ComMain

@@ -5,4 +5,20 @@
     flex: 1;
     line-height:50px;
     background: #409EFF;
+    .asideWrap{
+        width:100%;
+        li{
+            &.asideItem{ 
+                text-align: center;
+            }
+            &.active{
+                background: #fff;
+                color:#409EFF;
+                text-align: center;
+            }
+            &.default{
+                
+            }
+        }
+    }
 }
